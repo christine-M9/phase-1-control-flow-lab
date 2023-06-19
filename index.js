@@ -2,15 +2,23 @@ function scuberGreetingForFeet(distance){
   if (distance <= 400) {
   return "This one is on me!";
 }
+else if (distance > 2000 && distance <= 2500) {
+  return "I will gladly take your thirty bucks.";
 }
-  // Write your code here!
-   
-    
+else if (distance > 2500) {
+  return "No can do.";
+}
+} 
+// Write your code here!
+function ternaryCheckCity(place) {
+  return place === "NYC"
+    ? "Ok, sounds good."
+    : "No go.";
+}
 
-function ternaryCheckCity(){
-  // Write your code here!
-}
 
-function switchOnCharmFromTip(){
+ 
   // Write your code here!
-}
+  
+  // Write your code here!
+
